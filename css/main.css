@@ -1,6 +1,10 @@
 h1 {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  
+}
 
+.imgContainer {
+  max-width: 100px;
+  position: relative;
+  margin: auto;
 }
 

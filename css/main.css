@@ -3,6 +3,12 @@ h1 {
 }
 
 .imgContainer {
+  display: block;
+  max-width:50%;
+  max-height:50%;
+}
+
+img {
   max-width:50%;
   max-height:50%;
 }

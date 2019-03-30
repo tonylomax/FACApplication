@@ -1,11 +1,6 @@
 h1 {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-}
-
-.imgContainer {
-  max-width:75%;
-  max-height:75%;
-  position: relative;
+  font-size: 250%;
 }
 
 .bodyText {
@@ -16,6 +11,7 @@ h1 {
 p {
    text-align: justify;
    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+   font-size: 120%;
 }
 
 ul {
@@ -49,35 +45,72 @@ a {
   padding: 10px;
 }
 
-img {
-  display: block;
-  max-width:50%;
-  max-height:50%;
-  margin-left: 10%;
-  margin-right: auto;
-
+.imgContainer {
+  width: 99%;     
+  position: relative;
+  background-color: black;
+  margin: auto;
+  height: 550px;
+  overflow: hidden;
 }
 
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+  
 .arrow {
   cursor: pointer;
-  width: 20px;
-  padding: 10px;
+  width: 40px;
+  padding: 15px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
   background-color: black;
   text-align: center;
   position: absolute;
-  top: 20%;
-    border-radius: 3px 3px 3px 3px;
+  top: 25%;
+  border-radius: 3px 3px 3px 3px;
 }
 
 #right {
-    right: 0;
-  margin-right: 30%;
+  right: 0;
+  margin-right: 5px;
+}
 
+#play {
+  padding: 5px;
+  position: absolute;
+  bottom: -30px;
+  right: 5px;
+  color: white;
+  font-size: 35px;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#pause {
+  padding: 5px;
+  position: absolute;
+  bottom: -40px;
+  right: 5px;
+  color: white;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-align: center;
+  cursor: pointer;
+  display: none;
 }
 
 #img2, #img3 {
   display: none;
 }
+
+
+

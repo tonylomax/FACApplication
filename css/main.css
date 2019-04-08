@@ -43,6 +43,7 @@ a {
   border-style: solid;
   border-color: black;
   padding: 10px;
+  font-size: 120%
 }
 
 .imgContainer {
@@ -62,6 +63,8 @@ img {
   display: block;
 }
   
+
+
 .arrow {
   cursor: pointer;
   width: 40px;
@@ -87,7 +90,7 @@ img {
   bottom: -30px;
   right: 5px;
   color: white;
-  font-size: 35px;
+  font-size: 33px;
   border-radius: 10px;
   border: 3px solid white;
   text-align: center;
@@ -95,22 +98,40 @@ img {
 }
 
 #pause {
-  padding: 5px;
+  padding: 0px 10px 0px 9px;
   position: absolute;
   bottom: -40px;
   right: 5px;
   color: white;
-  font-size: 45px;
+  font-size: 42px;
   border-radius: 10px;
   border: 3px solid white;
   text-align: center;
   cursor: pointer;
   display: none;
-}
-
-#img2, #img3 {
-  display: none;
+  
 }
 
 
 
+
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+  .arrow {
+    font-size: 35px;
+    padding: 0px;
+  }
+  
+  .imgContainer {
+    height: 250px; 
+  }
+  li {
+    float: none;
+  }
+  a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  }

@@ -38,8 +38,6 @@ pause.addEventListener("click", () => {
   pause.style.display = "none" 
 })
 
-
-
 let autoPlayVar = null
 
 function autoPlay() {
@@ -52,13 +50,11 @@ function autoPlay() {
   return false;
 }
 
-
 play.addEventListener("click", autoPlay)
 pause.addEventListener("click", autoPlay)
                           
 
 document.getElementById("right").addEventListener("click", () => { showSlide("right"); })
-
 document.getElementById("left").addEventListener("click", () => { showSlide("left"); })
 
 }

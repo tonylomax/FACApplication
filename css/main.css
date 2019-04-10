@@ -112,16 +112,13 @@ img {
   
 }
 
-
-
-
  
 @media (max-width: 1000px) {
   h1 {
-    font-size: 500%
+    font-size: 750%
   }
   p {
-    font-size: 400%
+    font-size: 500%
   }
   
   .arrow {

@@ -1,4 +1,4 @@
-window.onload = function() {
+
 let countNum = 0
 
 let imgArr = Array.from(document.getElementsByTagName("img"))
@@ -57,4 +57,3 @@ pause.addEventListener("click", autoPlay)
 document.getElementById("right").addEventListener("click", () => { showSlide("right"); })
 document.getElementById("left").addEventListener("click", () => { showSlide("left"); })
 
-}

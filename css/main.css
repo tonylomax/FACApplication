@@ -115,7 +115,7 @@ img {
  
 @media (max-width: 1000px) {
   h1 {
-    font-size: 5em;
+    font-size: 10em;
   }
   p {
     font-size: 2.5em;

@@ -1,4 +1,4 @@
-document.ready = function() {
+window.onload = function() {
 let countNum = 0
 
 let imgArr = Array.from(document.getElementsByTagName("img"))

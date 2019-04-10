@@ -116,7 +116,7 @@ img {
 
 
  
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
   .arrow {
     font-size: 35px;
     padding: 0px;

@@ -116,7 +116,7 @@ img {
 
 
  
-@media (min-width: 400px) and (max-wdith: 700) {
+@media (min-width: 400px) and (max-wdith: 700px) {
   h1 {
     font-size: 500%
   }

@@ -117,6 +117,13 @@ img {
 
  
 @media (min-width: 400px) {
+  h1 {
+    font-size: 500%
+  }
+  p {
+    font-size: 250%
+  }
+  
   .arrow {
     font-size: 35px;
     padding: 0px;

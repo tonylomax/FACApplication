@@ -116,7 +116,7 @@ img {
 
 
  
-@media (max-width: 300px) {
+@media (min-width: 300px) {
   .arrow {
     font-size: 35px;
     padding: 0px;

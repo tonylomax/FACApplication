@@ -1,6 +1,6 @@
 h1 {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .bodyText {
@@ -11,7 +11,7 @@ h1 {
 p {
    text-align: justify;
    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-   font-size: 5px;
+   font-size: 10px;
 }
 
 ul {

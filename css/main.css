@@ -122,6 +122,10 @@ img {
     padding: 0px;
   }
   
+  #right {
+    margin-right: -1px;
+  }
+  
   .imgContainer {
     height: 250px; 
   }
@@ -134,4 +138,16 @@ img {
     margin-right: auto;
     text-align: center;
   }
+  #play {
+    font-size: 15px;
+    bottom: -10px;
+    right: 5px;
+  }
+  #pause {
+      font-size: 15px;
+    bottom: -10px;
+    right: 5px;
+  }
+  
+  
   }

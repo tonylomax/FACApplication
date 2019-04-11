@@ -131,7 +131,7 @@ img {
   }
   
   .imgContainer {
-    height: 250px; 
+    height: 50%; 
   }
   li {
     float: none;

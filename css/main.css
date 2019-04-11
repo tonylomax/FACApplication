@@ -87,8 +87,8 @@ img {
 #play {
   padding: 5px;
   position: absolute;
-  bottom: -30px;
-  right: 5px;
+  bottom: ;
+  right: ;
   color: white;
   font-size: 50%;
   border-radius: 10px;
@@ -100,8 +100,8 @@ img {
 #pause {
   padding: 0px 10px 0px 9px;
   position: absolute;
-  bottom: -40px;
-  right: 5px;
+  bottom: ;
+  right: ;
   color: white;
   font-size: 50%;
   border-radius: 10px;

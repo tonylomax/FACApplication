@@ -86,12 +86,12 @@ img {
 }
 
 #play {
-  padding: 5px;
+  padding: 0px 5px 0px 5px;
   position: absolute;
   bottom: -10px;
   right: 10px;
   color: white;
-   font-size: 150%;
+   font-size: 175%;
   border-radius: 10px;
   border: 3px solid white;
   text-align: center;
@@ -99,9 +99,9 @@ img {
 }
 
 #pause {
-  padding: 0px 10px 0px 9px;
+  padding: 0px 12px 0px 12px;
   position: absolute;
-   bottom: -15px ;
+   bottom: -10px ;
   right: 10px;
   color: white;
  font-size: 175%;

@@ -116,11 +116,11 @@ img {
  
 @media (max-width: 1000px) {
   h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
 
   p {
-    font-size: 200%;
+    font-size: 150%;
   }
   
   .arrow {
@@ -144,7 +144,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 225%;
+    font-size: 150%;
   }
   #play {
     font-size: 125%;
@@ -158,8 +158,4 @@ img {
     padding: 5px 0 5px 0;
   }
   
-  img {
-    
-  }
   
-  }

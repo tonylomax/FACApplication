@@ -76,7 +76,7 @@ img {
   background-color: black;
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 25%;
   border-radius: 3px 3px 3px 3px;
 }
 
@@ -173,7 +173,7 @@ img {
   .arrow {
     font-size: 300%;
     padding: 0px;
-    top: 15%;
+    top: 20%;
   }
   
   #right {
@@ -198,6 +198,7 @@ img {
     font-size: 125%;
     bottom: -10px;
     right: 5px;
+    padding: 5px;
   }
   #pause {
     font-size: 125%;
@@ -207,6 +208,5 @@ img {
   }
     
   }
-    
     
   

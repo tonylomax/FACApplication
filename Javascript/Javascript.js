@@ -2,7 +2,7 @@
 let countNum = 0
 
 /* Place all carousel images into array */
-let imgArr = Array.from(document.getElementsByTagName("img"))
+let imgArr = Array.from(document.getElementsByClassName("img-hidden"))
 
 let play =  document.getElementById("play")
 let pause =  document.getElementById("pause")
@@ -17,20 +17,22 @@ document.addEventListener("keydown", (e) => {
   }
 })
 
-/* Make all carousel images hidden...*/
-imgArr.forEach((img) => {img.style.display="none"})
-/* ... except the very first image*/
-imgArr[0].style.display="block"
+
+/* Make first image display as normal*/ 
+imgArr[0].classList.remove("img-hidden")
+imgArr[0].classList.add("imgDisplayed")  
 
 /* Funcation that takes the nav arrow direction as an argument. Right increases 
 the counter and displayes the next image along, left displays the previous image*/
 function showSlide(e) { 
-  imgArr.forEach((img) => {img.style.display="none"})
+  imgArr[countNum].classList.add("img-hidden") 
+  imgArr[countNum].classList.remove("imgDisplayed") 
   e == "right" ? countNum ++ :false
   e == "left" ? countNum --:false
   countNum < 0 ? countNum = imgArr.length-1:false
   countNum == imgArr.length ? countNum = 0:false
-  imgArr[countNum].style.display = "block"
+  imgArr[countNum].classList.add("imgDisplayed")
+  imgArr[countNum].classList.remove("img-hidden") 
 }
 
 /* Change display of play/pause buttons when clicked */

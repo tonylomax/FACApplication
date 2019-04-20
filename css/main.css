@@ -125,9 +125,6 @@ a {
 }
 
 
-
-
-
 #play {
   padding: 0px 5px 0px 5px;
   position: absolute;
@@ -141,6 +138,12 @@ a {
   cursor: pointer;
 }
 
+#play:hover {
+  color: black;
+  border-color: black;
+  background-color: white;
+}
+
 #pause {
   padding: 0px 12px 0px 12px;
   position: absolute;
@@ -152,9 +155,14 @@ a {
   border: 3px solid white;
   text-align: center;
   cursor: pointer;
-  display: none;
-  
+  display: none; 
 }
+
+#pause:hover {
+  color: black;
+  border-color: black;
+  background-color: white;
+  }
 
  
 @media (min-width: 568px) and (max-width: 1000px) {

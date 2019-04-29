@@ -58,7 +58,6 @@ a {
   justify-content: center;
 }
 
-
 .imgDisplayed {
   max-width: 100%;
   max-height: 100%;
@@ -73,8 +72,6 @@ a {
   position: absolute;
 }
 
-
-
 .img-hidden {
   max-width: 100%;
   max-height: 100%;
@@ -88,9 +85,6 @@ a {
   -o-transition: 3s;
   transition: opacity 3s;
 }
-
-
-
 
 .arrow {
   cursor: pointer;
@@ -124,7 +118,6 @@ a {
   border-radius: 3px 0px 0px 3px ;
 }
 
-
 #play {
   padding: 0px 5px 0px 5px;
   position: absolute;
@@ -147,10 +140,10 @@ a {
 #pause {
   padding: 0px 12px 0px 12px;
   position: absolute;
-   bottom: -10px ;
+  bottom: -10px ;
   right: 10px;
   color: white;
- font-size: 175%;
+  font-size: 175%;
   border-radius: 10px;
   border: 3px solid white;
   text-align: center;
@@ -164,7 +157,6 @@ a {
   background-color: white;
   }
 
- 
 @media (min-width: 568px) and (max-width: 1000px) {
   h1 {
     font-size: 300%;
@@ -210,10 +202,8 @@ a {
   }
 }
   
-  
-  @media (max-width: 568px) {
-    
-    h1 {
+@media (max-width: 568px) {
+  h1 {
     font-size: 300%;
   }
 
@@ -234,6 +224,7 @@ a {
   .imgContainer {
     height: 50%; 
   }
+  
   li {
     float: none;
   }
@@ -245,18 +236,20 @@ a {
     text-align: center;
     font-size: 150%;
   }
+  
   #play {
     font-size: 125%;
     bottom: -10px;
     right: 5px;
     padding: 5px;
   }
+  
   #pause {
     font-size: 125%;
     bottom: -10px;
     right: 5px;
     padding: 4px 10px 5px 10px;
   }
-  }
+}
     
   

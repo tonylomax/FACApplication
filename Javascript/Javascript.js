@@ -1,11 +1,10 @@
-
 let countNum = 0
 
 /* Place all carousel images into array */
 let imgArr = Array.from(document.getElementsByClassName("img-hidden"))
 
-let play =  document.getElementById("play")
-let pause =  document.getElementById("pause")
+let play = document.getElementById("play")
+let pause = document.getElementById("pause")
 
 /* Move carousel on keypress */
 document.addEventListener("keydown", (e) => {
@@ -17,13 +16,12 @@ document.addEventListener("keydown", (e) => {
   }
 })
 
-
 /* Make first image display as normal*/ 
 imgArr[0].classList.remove("img-hidden")
 imgArr[0].classList.add("imgDisplayed")  
 
 /* Funcation that takes the nav arrow direction as an argument. Right increases 
-the counter and displayes the next image along, left displays the previous image*/
+the counter and displayes the next image along, left decreases the counter and displays the previous image*/
 function showSlide(e) { 
   imgArr[countNum].classList.add("img-hidden") 
   imgArr[countNum].classList.remove("imgDisplayed") 
@@ -47,14 +45,14 @@ pause.addEventListener("click", () => {
 })
 
 /* Auto play function*/
-
 let autoPlayVar = null
 
 function autoPlay() {
   if (autoPlayVar) {
     clearInterval(autoPlayVar);
     autoPlayVar = null;
-  } else {
+  } 
+  else {
     autoPlayVar = setInterval(() => {showSlide("right")}, 3000)
   }
   return false;
